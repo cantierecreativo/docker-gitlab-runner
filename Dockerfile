@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM buildpack-deps:jessie
 MAINTAINER Cantiere Creativo Team <info@cantierecreativo.net>
 ENV PATH /root/.rbenv/bin:/root/.rbenv/shims:$PATH
 ENV CONFIGURE_OPTS --disable-install-doc
